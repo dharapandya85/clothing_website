@@ -1,0 +1,107 @@
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  color: #333;
+  font-family: Arial, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  color: #007bff;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.footer-contact p,
+.footer-subscribe p,
+.footer-payment p,
+.footer-social p {
+  line-height: 1.6;
+  margin: 5px 0;
+}
+
+.footer-subscribe form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-subscribe input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.footer-subscribe button {
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer-subscribe button:hover {
+  background-color: #0056b3;
+}
+
+.footer-bottom {
+  grid-column: span 2;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.footer-bottom a {
+  color: #007bff !important; /* Ensure visibility */
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom p {
+  margin: 5px 0;
+}
+
+.payment-icons img,
+.social-icons img {
+  height: 24px !important; /* Ensure smaller size */
+  width: auto !important;
+  margin: 0 5px !important;
+  display: inline-block;
+}
+
+.social-icons a img {
+  transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.1); /* Slight hover effect */
+}
+
+.footer-container a {
+  color: #007bff !important; /* Visible blue color */
+  text-decoration: none !important;
+  margin-right: 10px;
+  font-size: 14px;  /* Spacing between links */
+}
+
+.footer-container a:hover {
+  text-decoration: underline !important;
+}
+
+.footer-container p {
+  font-size: 14px !important; /* Smaller font size */
+  line-height: 1.6 !important;
+  margin: 10px 0 !important;
+}

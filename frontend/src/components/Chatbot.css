@@ -1,0 +1,19 @@
+.chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .chatbot {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    background: white;
+    width: 300px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+  }
+  

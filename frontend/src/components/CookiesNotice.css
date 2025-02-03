@@ -1,0 +1,30 @@
+.cookies-notice {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cookies-notice p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .cookies-notice button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .cookies-notice button:hover {
+    background-color: #0056b3;
+  }
+  
