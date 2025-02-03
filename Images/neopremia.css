@@ -1,0 +1,21 @@
+.standard {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #000000; text-decoration: none}
+
+a:active {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FF0000; text-decoration: none}
+
+a:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #FFFFFF; text-decoration: none; background-color: #000000}
+
+a:link {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	color: #FF0000;
+
+	text-decoration: none;
+
+	font-weight: normal;
+
+}
+
+a:visited {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; text-decoration: none}
